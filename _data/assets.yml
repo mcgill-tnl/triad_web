@@ -5,6 +5,7 @@ css:
   - /assets/css/parallaxcarousel.css
   - /assets/css/navbar.css
   - /assets/css/charts.css
+  - /assets/css/flex_styles.css
   - /assets/css/flexcenterrow.css
   - https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700
   - https://fonts.googleapis.com/css?family=Raleway:400,700,300

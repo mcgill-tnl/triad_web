@@ -25,6 +25,9 @@ team:
 description:
   en: "Description"
   fr: "Description"
+description_page_title:
+  en: "Cohort Description"
+  fr: "Cohort Description FR"
 data:
   en: "Data"
   fr: "Data FR"

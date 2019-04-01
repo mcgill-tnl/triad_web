@@ -2,5 +2,9 @@
 title: Description
 permalink: /description/
 lang: en
-layout: default
+layout: flex_default_w_side
 ---
+
+{% assign actlang = site.active_lang %}
+{% assign page_title_long = site.data.titleTrs['description_page_title'][actlang] %}
+{% include flex_sidebar.html lang=actlang page_title=page_title_long page_id="desc" %}
