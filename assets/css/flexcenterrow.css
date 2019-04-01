@@ -1,0 +1,13 @@
+.flexcenteredrow {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  justify-content: center;
+}
+
+.flexcolumn {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 100%;
+}

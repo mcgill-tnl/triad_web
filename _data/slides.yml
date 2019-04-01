@@ -1,0 +1,25 @@
+- 1:
+  active: "active"
+  title: ""
+  subtitle: ""
+  image: "url('/assets/img/slider_1.png')"
+- 2:
+  active: ""
+  title: ""
+  subtitle: ""
+  image: "url('/assets/img/slider_2.png')"
+- 3:
+  active: ""
+  title: ""
+  subtitle: ""
+  image: "url('/assets/img/slider_3.png')"
+- 4:
+  active: ""
+  title: ""
+  subtitle: ""
+  image: "url('/assets/img/slider_4.png')"
+- 5:
+  active: ""
+  title: ""
+  subtitle: ""
+  image: "url('/assets/img/slider_5.png')"

@@ -1,0 +1,98 @@
+tier1:
+  - pedro:
+    name: "Dr. Pedro Rosa-Neto MD, Ph.D"
+    title:
+      en: "Director of the TRIAD cohort"
+      fr: "Director of the TRIAD cohort"
+    thumbnail: "/assets/img/personal/pedro.png"
+    assoc:
+      en: "Neurologist and Associate Professor, McGill University, Montreal"
+      fr: "Neurologist and Associate Professor, McGill University, Montreal"
+    desc:
+      en: "Director of the McGill Center for Studies in Aging"
+      fr: "Director of the McGill Center for Studies in Aging"
+  - serge:
+    name: "Dr. Serge Gauthier, MD, FRCPC"
+    title:
+      en: ""
+      fr: ""
+    thumbnail: "/assets/img/personal/serge.png"
+    assoc:
+      en: "Neurologist"
+      fr: "Neurologist"
+    desc:
+      en: "Director, Alzheimer Disease Research Unit"
+      fr: "Director, Alzheimer Disease Research Unit"
+tier2:
+  - mira:
+    name: "Mira Chamoun, Ph.D"
+    title:
+      en: "Cohort Manager"
+      fr: "Cohort Manager"
+    thumbnail: "/assets/img/personal/mira.png"
+  - andrea:
+    name: "Andrea Lessa Benedet, MSc"
+    title:
+      en: "Biobank Manager"
+      fr: "Biobank Manager"
+    thumbnail: "/assets/img/personal/andrea.png"
+  - emily:
+    name: "Emilie Thomas, Ph.D"
+    title:
+      en: "Neuropsychologist"
+      fr: "Neuropsychologist"
+    thumbnail: "/assets/img/personal/emily.png"
+  - jenna:
+    name: "Jenna Stenvenson, BSc"
+    title:
+      en: "Research Coordinator"
+      fr: "Research Coordinator"
+    thumbnail: "/assets/img/personal/jenna.png"
+  - guylaine :
+    name: "Guylaine Gagné, RN"
+    title:
+      en: "Senior Research Nurse"
+      fr: "Senior Research Nurse"
+    thumbnail: "/assets/img/personal/guylaine.png"
+  - carley :
+    name: "Carley Mayhew, RN"
+    title:
+      en: "Research Nurse"
+      fr: "Research Nurse"
+    thumbnail: "/assets/img/personal/carley.png"
+  - tasha:
+    name: "Tasha Vinet-Celluci"
+    title:
+      en: "Research Assistant"
+      fr: "Research Assistant"
+    thumbnail: "/assets/img/personal/tasha.png"
+  - karen:
+    name: "Karen Wan, BSc"
+    title:
+      en: "Research Assistant"
+      fr: "Research Assistant"
+    thumbnail: "/assets/img/personal/karen.png"
+  - ellie :
+    name: "Ellie Joung, BSc"
+    title:
+      en: "Research Assistant"
+      fr: "Research Assistant"
+    thumbnail: "/assets/img/personal/ellie.png"
+  - sarah :
+    name: "Sarah Sbeiti, BSc"
+    title:
+      en: "Research Assistant"
+      fr: "Research Assistant"
+    thumbnail: "/assets/img/personal/sarah.png"
+  - rim:
+    name: "Rim Nazar, BSc"
+    title:
+      en: "Research Assistant"
+      fr: "Research Assistant"
+    thumbnail: "/assets/img/personal/rim.png"
+  - miloudza :
+    name: "Miloudza Olmand, BSc"
+    title:
+      en: "Research Assistant"
+      fr: "Research Assistant"
+    thumbnail: "/assets/img/personal/miloudza.png"

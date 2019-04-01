@@ -1,0 +1,24 @@
+.card-flip {
+  position: relative;
+  .front {
+    width: 100%;
+    height: 100%;
+    transform: perspective(2000px) rotateY(0deg);
+    backface-visibility: hidden;
+    transition: all 0.5s linear 0s;
+  }
+  .back {
+    @extend .front;
+    transform: perspective(2000px) rotateY(180deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .rotate-card-front {
+    transform: perspective(1600px) rotateY(-180deg);
+  }
+  .rotate-card-back {
+    transform: perspective(1600px) rotateY(0deg);
+  }
+}

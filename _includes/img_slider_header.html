@@ -1,0 +1,37 @@
+{% assign handle = include.lang %}
+{% assign translatedTo = "en,fr" | split: "," %}
+{% unless translatedTo contains handle %}{% assign handle = site.default_lang %}{% endunless %}
+
+<header class="sliderheader">
+  <div class="overlay">
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100 text-white">
+          <h1 class="heading">{{ site.data.titleTrs['triad'][handle] }}</h1>
+          <p class="subhead">{{ site.data.titleTrs['triadLong'][handle] }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselIndicators" data-slide-to="3"></li>
+      <li data-target="#carouselIndicators" data-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <!-- Slide One - Set the background image for this slide in the line below -->
+      {% for slide in site.data.slides %}
+      <div class="carousel-item {{ slide.active }}" style="background-image: {{ slide.image }}">
+        <div class="carousel-caption d-none d-md-block">
+          <h3 class="display-4">{{ slide.title }}</h3>
+          <p class="lead">{{ slide.subtitle }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+</header>

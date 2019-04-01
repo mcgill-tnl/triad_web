@@ -1,0 +1,58 @@
+{% assign handle = include.lang %}
+{% assign translatedTo = "en,fr" | split: "," %}
+{% unless translatedTo contains handle %}{% assign handle = site.default_lang %}{% endunless %}
+
+{% case  handle %}
+  {% when 'en' %}
+    <div class="container">
+      <div class="row">
+        <div class="col align-self-center">
+          <div class="shadow p-3 mb-5 bg-white rounded">
+            <div class="card text-center">
+              <div class="card-body">
+                <h4 class="card-title align-self-center ">{{ site.data.titleTrs['description'][handle] }}</h4>
+                <div class="row">
+                  <div class="col-md-12">
+                    <p class="text-left">The TRIAD cohort assesses the trajectory of multiple imaging and fluid biomarkers in clinical populations, it serves as a benchmark for testing novel biomarkers of dementia. </p>
+                    <ul style="text-align: left;">
+                      <li>Launched in 2017, largest biomarker based study. </li>
+                      <li>Large scale longitudinal cohort: more than 1000 people in the TRIAD registry. </li>
+                      <li>Fluid biomarkers, PET scans, MRI scans, cognitive and neuropsychological assessments. </li>
+                      <li>Population: Healthy young (HY) volunteers, cognitively unimpaired (CU), mild cognitive impairment (MCI), Alzheimer’s disease (AD) as well as other types of atypical AD and dementia. </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% when 'fr' %}
+    <div class="container">
+      <div class="row">
+        <div class="col align-self-center">
+          <div class="shadow p-3 mb-5 bg-white rounded">
+            <div class="card text-center">
+              <div class="card-body">
+                <h4 class="card-title align-self-center ">{{ site.data.titleTrs['description'][handle] }}</h4>
+                <div class="row">
+                  <div class="col-md-12">
+                    <p class="text-left">The TRIAD cohort assesses the trajectory of multiple imaging and fluid biomarkers in clinical populations, it serves as a benchmark for testing novel biomarkers of dementia. </p>
+                    <ul style="text-align: left;">
+                      <li>Launched in 2017, largest biomarker based study. </li>
+                      <li>Large scale longitudinal cohort: more than 1000 people in the TRIAD registry. </li>
+                      <li>Fluid biomarkers, PET scans, MRI scans, cognitive and neuropsychological assessments. </li>
+                      <li>Population: Healthy young (HY) volunteers, cognitively unimpaired (CU), mild cognitive impairment (MCI), Alzheimer’s disease (AD) as well as other types of atypical AD and dementia. </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% else %}
+     Undefined Locale.
+  {% endcase %}

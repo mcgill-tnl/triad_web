@@ -1,0 +1,74 @@
+{% assign handle = include.lang %}
+{% assign translatedTo = "en,fr" | split: "," %}
+{% unless translatedTo contains handle %}{% assign handle = site.default_lang %}{% endunless %}
+
+{% case  handle %}
+  {% when 'en' %}
+    <div class="container">
+      <div class="row">
+        <div class="col align-self-center">
+          <div class="shadow p-3 mb-5 bg-white rounded">
+            <div class="card text-center">
+              <div class="card-body">
+                <h4 class="card-title align-self-center">{{ site.data.titleTrs['contactUs'][handle] }}</h4>
+                <div class="col-sm">
+                  <p>
+                    If you would like to participate or would like to hear more, please contact us.
+                  </p>
+                </div>
+                <div class="col-sm">
+                  <form action="https://formspree.io/triad.tnl.mcgill@gmail.com" method="POST">
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="nameinput" name="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                      <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                      <textarea class="form-control" id="inputMessage" name="message" rows="2"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-light">Send Message</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% when 'fr' %}
+    <div class="container">
+      <div class="row">
+        <div class="col align-self-center">
+          <div class="shadow p-3 mb-5 bg-white rounded">
+            <div class="card text-center">
+              <div class="card-body">
+                <h4 class="card-title align-self-center">{{ site.data.titleTrs['contactUs'][handle] }}</h4>
+                <div class="col-sm">
+                  <p>
+                    If you would like to participate or would like to hear more, please contact us.
+                  </p>
+                </div>
+                <div class="col-sm">
+                  <form action="https://formspree.io/triad.tnl.mcgill@gmail.com" method="POST">
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="nameinput" name="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                      <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                      <textarea class="form-control" id="inputMessage" name="message" rows="2"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-light">Send Message</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% else %}
+     Undefined Locale.
+{% endcase %}

@@ -1,0 +1,48 @@
+triad:
+  en: "TRIAD"
+  fr: "TRIAD"
+triadLong:
+  en: "Translational Biomarkers of Aging and Dementia"
+  fr: "Translational Biomarkers of Aging and Dementia FR"
+home:
+  en: "Home"
+  fr: "Home FR"
+about:
+  en: "About"
+  fr: "About FR"
+contact:
+  en: "Contact"
+  fr: "Contact FR"
+contactUs:
+  en: "Contact Us"
+  fr: "Contact Us FR"
+stats:
+  en: "Stats"
+  fr: "Stats FR"
+team:
+  en: "Team"
+  fr: "Team FR"
+description:
+  en: "Description"
+  fr: "Description"
+data:
+  en: "Data"
+  fr: "Data FR"
+dataAccess:
+  en: "Data Privacy and Access"
+  fr: "Data Privacy and Access FR"
+desc_background:
+  en: "Background"
+  fr: "Background FR"
+desc_aims:
+  en: "Aims"
+  fr: "Aims FR"
+desc_facilities:
+  en: "Facilities"
+  fr: "Facilities FR"
+desc_measures:
+  en: "Measures"
+  fr: "Measures FR"
+desc_groups:
+  en: "Study Groups"
+  fr: "Study Groups FR"

@@ -1,0 +1,42 @@
+header.sliderheader {
+  position: relative;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  top:0;
+
+  .container {
+    position: relative;
+    z-index: 2;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+
+  .heading {
+    color: #FF0000;
+    font-size: 5em;
+  }
+
+  .subhead {
+    color: #EAEAEA;
+    font-size: 2em;
+  }
+
+  .langselect {
+    color: #EAEAEA;
+    font-size: 1em;
+    padding-left: 0.5em;
+    padding-top: 2em;
+  }
+
+}

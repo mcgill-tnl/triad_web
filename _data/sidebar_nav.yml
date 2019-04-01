@@ -1,0 +1,46 @@
+desc:
+ - name: Background
+   trId: "desc_background"
+   path: "#background"
+   section_id: "background"
+ - name: Aims
+   trId: "desc_aims"
+   path: "#aims"
+   section_id: "aims"
+ - name: Facilities
+   trId: "desc_facilities"
+   path: "#facilities"
+   section_id: "facilities"
+ - name: Measures
+   trId: "desc_measures"
+   path: "#measures"
+   section_id: "measures"
+ - name: Groups
+   trId: "desc_groups"
+   path: "#groups"
+   section_id: "groups"
+participants:
+ - name: About
+   trId: "part_about"
+   path: "#about"
+   section_id: "about"
+ - name: Who
+   trId: "part_who"
+   path: "#who"
+   section_id: "who"
+ - name: How
+   trId: "part_how"
+   path: "#how"
+   section_id: "how"
+ - name: What
+   trId: "part_what"
+   path: "#what"
+   section_id: "what"
+ - name: Tests
+   trId: "part_tests"
+   path: "#tests"
+   section_id: "tests"
+ - name: Where
+   trId: "part_where"
+   path: "#where"
+   section_id: "where"

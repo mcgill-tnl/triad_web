@@ -1,0 +1,10 @@
+.navlangselect {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 1em;
+  padding-left: 1em;
+}
+.navlangselect:hover {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1em;
+  padding-left: 1em;
+}
