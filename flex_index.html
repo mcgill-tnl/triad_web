@@ -1,0 +1,23 @@
+---
+layout: flex_default_w_side
+onepage: true
+page_id: 'index'
+---
+{% assign actlang = site.active_lang %}
+<a id='top'></a>
+{% include img_slider_header.html lang=actlang %}
+
+<a id='about'></a>
+{% include flex_content_cards_aboutDesc.html lang=actlang %}
+
+<a id='stats'></a>
+{% include content_cards_stats.html lang=actlang %}
+
+<a id='team'></a>
+{% include content_team_cards.html lang=actlang %}
+
+<a id='data'></a>
+{% include content_cards_data.html lang=actlang %}
+
+<a id='contact'></a>
+{% include content_cards_contact.html lang=actlang %}

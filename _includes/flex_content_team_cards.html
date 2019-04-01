@@ -1,0 +1,43 @@
+{% assign handle = include.lang %}
+{% assign translatedTo = "en,fr" | split: "," %}
+{% unless translatedTo contains handle %}{% assign handle = site.default_lang %}{% endunless %}
+
+<div class="container">
+  <div class="row nowraprow pt-4 pb-2">
+    <h4 class=" text-center">{{ site.data.titleTrs['team'][handle] }}</h4>
+  </div>
+  <div class="flexcenteredrow">
+    {% for speaker in site.data.team.tier1 %}
+    <div class="col col-md-3 col-sm-6 col-12 mb-3 d-flex align-items-stretch flexcolumn">
+      <div class="shadow p-1 mb-1 bg-white rounded h-100">
+        <div class="card h-100">
+          <img class="card-img-top" src="{{ speaker.thumbnail }}" alt="Card Image">
+          <div class="card-body">
+            <h5>{{ speaker.name }}</h5>
+            <h6>{{ speaker.title[handle] }}</h6>
+            <p style="font-size:12px;">{{ speaker.assoc[handle] }}</p>
+            <b style="font-size:13px; color:#7D7D7D;">{{ speaker.desc[handle] }}</b>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="flexcenteredrow">
+    {% for speaker in site.data.team.tier2 %}
+    <div class="col col-md-3 col-sm-6 col-12 mb-3 d-flex align-items-stretch flexcolumn">
+      <div class="shadow p-1 mb-1 bg-white rounded h-100">
+        <div class="card h-100">
+          <img class="card-img-top" src="{{ speaker.thumbnail }}" alt="Card Image">
+          <div class="card-body">
+            <h5>{{ speaker.name }}</h5>
+            <h6>{{ speaker.title[handle] }}</h6>
+            <p style="font-size:12px;">{{ speaker.assoc[handle] }}</p>
+            <b style="font-size:13px; color:#7D7D7D;">{{ speaker.desc[handle] }}</b>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

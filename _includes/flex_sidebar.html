@@ -1,0 +1,21 @@
+<nav id="sidebar">
+    <div class="sidebar-header">
+        <h4>{{ include.page_title }}</h4>
+    </div>
+
+    <ul class="list-unstyled components">
+        {% for item in site.data.sidebar_nav[include.page_id] %}
+                <li class="nav-item">
+                    {% assign first = item.path | truncate:1,'' %}
+                    {% if first != '#' %}
+                    {% assign href = item.path | relative_url %}
+                    {% elsif page.onepage %}
+                    {% assign href = item.path %}
+                    {% else %}
+                    {% assign href = page.url | append:item.path | relative_url %}
+                    {% endif %}
+                    <a href="{{ href }}">{{ site.data.titleTrs[item.trId][site.active_lang] }}</a>
+                </li>
+                {% endfor %}
+    </ul>
+</nav>
