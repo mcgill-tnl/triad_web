@@ -1,0 +1,186 @@
+{% assign handle = include.lang %}
+{% assign translatedTo = "en,fr" | split: "," %}
+{% unless translatedTo contains handle %}{% assign handle = site.default_lang %}{% endunless %}
+
+{% case  handle %}
+{% when 'en' %}
+<div class="container-fluid">
+    <header class="sliderheader_wSideBar">
+        <div class="overlay">
+        </div>
+        <div class="pageparallax desc_groups_parallax">
+        </div>
+    </header>
+    <div class="row nowraprow pt-4 pb-2">
+        <h4 class=" text-center">{{ site.data.titleTrs['desc_groups'][handle] }}</h4>
+    </div>
+    <div class="container-fluid containerWsidebar">
+        <div class="row nowraprow">
+            <div class="p-4">
+                <p>The TRIAD cohort consists of study participants belonging to distinct populations, including
+                    cognitively unimpaired, mild cognitive impairment, Alzheimer’s disease, as well as atypical
+                    dementia. Each of these populations has a fundamental role in our investigation of biomarkers of
+                    aging and dementia in the human brain.
+                    Since all of our studies involve positron emission tomography (PET) and magnetic resonance imaging
+                    (MRI), we exclude individuals who are unable to undergo these procedures from our cohort. In
+                    addition, we are unable to include individuals who have any uncontrolled systemic or neurological
+                    diseases and people who are unaible to give consent. </p>
+
+                <h6>Cognitively healthy individuals</h6>
+                <p>
+                    The cognitively healthy population consists of participants who do not exhibit any cognitive
+                    symptoms. These individuals do not meet the criteria for mild cognitive impairment or any form of
+                    dementia, nor any psychiatric disorder. The TRIAD cohort recruits both young (between 20 and 45
+                    years of age) and elderly (between 55 and 85 years of age) subjects into the cognitively healthy
+                    group. The aim of this population is (1) to serve as a control group for comparison purposes in our
+                    studies of aging and dementia biomarkers and (2) study the pre-symptomatic phase of Alzheimer’s
+                    disease.
+                </p>
+                <h6>Mild cognitive impairment (MCI)</h6>
+                <p>
+                    The mild cognitive impairment (MCI) population includes participants who exhibit cognitive symptoms,
+                    which include memory loss as well as problems with thinking, judgment, and language, but who do not
+                    meet the criteria for dementia. Cognitive symptoms in MCI are more significant than normal
+                    age-related changes in cognition, but typically do not sufficient to affect daily activities. The
+                    cognitive impairment should not be explained by any other disease or condition, nor by the use of
+                    certain medications. MCI diagnosis is determined through neuropsychological evaluation, MRI and PET
+                    scans and is confirmed during the weekly clinical meeting. Subtypes of MCI exist, including amnesic
+                    mild cognitive impairment (aMCI), in which episodic memory in particular is impaired. The aim of
+                    this population is to study biomarkers in an intermediate stage of dementia as a diagnosis of MCI is
+                    associated with a higher likelihood of progression to dementia.
+                </p>
+                <h6>Alzheimer’s Disease (AD)</h6>
+                <p>
+                    The Alzheimer’s disease (AD) population consists of individuals who have been diagnosed with
+                    Alzheimer’s disease by a clinician. Alzheimer’s disease patients present with a progressive decline
+                    in memory and other cognitive functions which significantly impacts daily activities, which is
+                    typically accompanied by behavioral or neuropsychiatric symptoms. AD diagnosis is determined by a
+                    clinician and involves neuropsychological testing as well as brain imaging tests. Aside from typical
+                    Alzheimer’s disease, the AD population may include individuals who have been diagnosed with variant
+                    forms of Alzheimer’s disease, including early onset Alzheimer’s disease (EOAD), posterior cortical
+                    atrophy (PCA), and primary progressive aphasia (PPA). The early onset Alzheimer’s disease subgroup
+                    includes individuals who develop Alzheimer’s disease symptoms before the age of 65, and is in many
+                    cases explained by genetic risk factors (i.e. familial Alzheimer’s disease). Individuals with PCA
+                    show marked degeneration of cerebral cortex in the posterior region of the brain, and symptoms
+                    particularly affect visual function. Individuals with PPA primarily have a significant impairment in
+                    language. This subgroup includes individuals who are diagnosed with the logopenic variant of PPA,
+                    which is associated with slower speech and difficulties with word retrieval. The AD population,
+                    including its various subgroups, is crucial in investigating how various biomarkers present in
+                    different types of AD and dementia, as well as how they interact in different stages of the disease.
+                </p>
+                <h6>Atypical Dementia</h6>
+                <p>
+                    The atypical dementia population includes individuals who do not meet the criteria for Alzheimer’s
+                    disease and instead present with conditions including frontotemporal dementia (FTD), progressive
+                    supranuclear palsy (PSP), corticobasal degeneration (CBD), and vascular dementia (vD). Diagnosis of
+                    these disorders is determined by the clinician who refers us the patients. Individuals with FTD,
+                    sometimes referred to as Pick’s disease, FTD is associated with deterioration in behavior,
+                    personality, and language, as well as disturbances in motor functions in some cases. In particular,
+                    the most common form of FTD, behavioral variant of frontotemporal dementia (bvFTD), is characterized
+                    by significant alterations in behavioral, judgment, and empathy, as well as by symptoms such as
+                    apathy, impulsivity, and lack of restraint based on social norms. PSP, sometimes referred to as
+                    Steele–Richardson–Olszewski syndrome, is a condition which primarily affects balance and eye
+                    movements, as well as sleep. CBD is characterized by a significant impairment in motor functioning.
+                    vD describes individuals whose cognitive symptoms are caused by impaired blood flow to the brain,
+                    typically due to a stroke. Patients with vD typically experience cognitive decline in a step-like
+                    manner, as opposed to gradually as in typical Alzheimer’s disease. The aim of the atypical dementia
+                    population is primarily to examine the differences in the presentation of biomarkers in these
+                    various forms of dementia, which helps to improve the differentiation and diagnosis of these
+                    disorders.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% when 'fr' %}
+<div class="container-fluid">
+    <header class="sliderheader_wSideBar">
+        <div class="overlay">
+        </div>
+        <div class="pageparallax desc_groups_parallax">
+        </div>
+    </header>
+    <div class="row nowraprow pt-4 pb-2">
+        <h4 class=" text-center">{{ site.data.titleTrs['desc_groups'][handle] }}</h4>
+    </div>
+    <div class="container-fluid containerWsidebar">
+        <div class="row nowraprow">
+            <div class="p-4">
+                <p>The TRIAD cohort consists of study participants belonging to distinct populations, including
+                    cognitively unimpaired, mild cognitive impairment, Alzheimer’s disease, as well as atypical
+                    dementia. Each of these populations has a fundamental role in our investigation of biomarkers of
+                    aging and dementia in the human brain.
+                    Since all of our studies involve positron emission tomography (PET) and magnetic resonance imaging
+                    (MRI), we exclude individuals who are unable to undergo these procedures from our cohort. In
+                    addition, we are unable to include individuals who have any uncontrolled systemic or neurological
+                    diseases and people who are unaible to give consent. </p>
+
+                <h6>Cognitively healthy individuals</h6>
+                <p>
+                    The cognitively healthy population consists of participants who do not exhibit any cognitive
+                    symptoms. These individuals do not meet the criteria for mild cognitive impairment or any form of
+                    dementia, nor any psychiatric disorder. The TRIAD cohort recruits both young (between 20 and 45
+                    years of age) and elderly (between 55 and 85 years of age) subjects into the cognitively healthy
+                    group. The aim of this population is (1) to serve as a control group for comparison purposes in our
+                    studies of aging and dementia biomarkers and (2) study the pre-symptomatic phase of Alzheimer’s
+                    disease.
+                </p>
+                <h6>Mild cognitive impairment (MCI)</h6>
+                <p>
+                    The mild cognitive impairment (MCI) population includes participants who exhibit cognitive symptoms,
+                    which include memory loss as well as problems with thinking, judgment, and language, but who do not
+                    meet the criteria for dementia. Cognitive symptoms in MCI are more significant than normal
+                    age-related changes in cognition, but typically do not sufficient to affect daily activities. The
+                    cognitive impairment should not be explained by any other disease or condition, nor by the use of
+                    certain medications. MCI diagnosis is determined through neuropsychological evaluation, MRI and PET
+                    scans and is confirmed during the weekly clinical meeting. Subtypes of MCI exist, including amnesic
+                    mild cognitive impairment (aMCI), in which episodic memory in particular is impaired. The aim of
+                    this population is to study biomarkers in an intermediate stage of dementia as a diagnosis of MCI is
+                    associated with a higher likelihood of progression to dementia.
+                </p>
+                <h6>Alzheimer’s Disease (AD)</h6>
+                <p>
+                    The Alzheimer’s disease (AD) population consists of individuals who have been diagnosed with
+                    Alzheimer’s disease by a clinician. Alzheimer’s disease patients present with a progressive decline
+                    in memory and other cognitive functions which significantly impacts daily activities, which is
+                    typically accompanied by behavioral or neuropsychiatric symptoms. AD diagnosis is determined by a
+                    clinician and involves neuropsychological testing as well as brain imaging tests. Aside from typical
+                    Alzheimer’s disease, the AD population may include individuals who have been diagnosed with variant
+                    forms of Alzheimer’s disease, including early onset Alzheimer’s disease (EOAD), posterior cortical
+                    atrophy (PCA), and primary progressive aphasia (PPA). The early onset Alzheimer’s disease subgroup
+                    includes individuals who develop Alzheimer’s disease symptoms before the age of 65, and is in many
+                    cases explained by genetic risk factors (i.e. familial Alzheimer’s disease). Individuals with PCA
+                    show marked degeneration of cerebral cortex in the posterior region of the brain, and symptoms
+                    particularly affect visual function. Individuals with PPA primarily have a significant impairment in
+                    language. This subgroup includes individuals who are diagnosed with the logopenic variant of PPA,
+                    which is associated with slower speech and difficulties with word retrieval. The AD population,
+                    including its various subgroups, is crucial in investigating how various biomarkers present in
+                    different types of AD and dementia, as well as how they interact in different stages of the disease.
+                </p>
+                <h6>Atypical Dementia</h6>
+                <p>
+                    The atypical dementia population includes individuals who do not meet the criteria for Alzheimer’s
+                    disease and instead present with conditions including frontotemporal dementia (FTD), progressive
+                    supranuclear palsy (PSP), corticobasal degeneration (CBD), and vascular dementia (vD). Diagnosis of
+                    these disorders is determined by the clinician who refers us the patients. Individuals with FTD,
+                    sometimes referred to as Pick’s disease, FTD is associated with deterioration in behavior,
+                    personality, and language, as well as disturbances in motor functions in some cases. In particular,
+                    the most common form of FTD, behavioral variant of frontotemporal dementia (bvFTD), is characterized
+                    by significant alterations in behavioral, judgment, and empathy, as well as by symptoms such as
+                    apathy, impulsivity, and lack of restraint based on social norms. PSP, sometimes referred to as
+                    Steele–Richardson–Olszewski syndrome, is a condition which primarily affects balance and eye
+                    movements, as well as sleep. CBD is characterized by a significant impairment in motor functioning.
+                    vD describes individuals whose cognitive symptoms are caused by impaired blood flow to the brain,
+                    typically due to a stroke. Patients with vD typically experience cognitive decline in a step-like
+                    manner, as opposed to gradually as in typical Alzheimer’s disease. The aim of the atypical dementia
+                    population is primarily to examine the differences in the presentation of biomarkers in these
+                    various forms of dementia, which helps to improve the differentiation and diagnosis of these
+                    disorders.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% else %}
+Undefined Locale.
+{% endcase %}

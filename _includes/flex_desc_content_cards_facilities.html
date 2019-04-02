@@ -1,0 +1,62 @@
+{% assign handle = include.lang %}
+{% assign translatedTo = "en,fr" | split: "," %}
+{% unless translatedTo contains handle %}{% assign handle = site.default_lang %}{% endunless %}
+
+{% case  handle %}
+{% when 'en' %}
+<div class="container-fluid">
+    <div class="row nowraprow pt-4 pb-2">
+        <h4 class=" text-center">{{ site.data.titleTrs['desc_facilities'][handle] }}</h4>
+    </div>
+    <div class="container-fluid containerWsidebar">
+        <div class="row nowraprow">
+            <div class="p-4">
+                <h5> McGill University Research Centre for Studies in Aging (MCSA) </h5>
+                <p>The MCSA was established in 1985 as a multi-disciplinary academic unit dedicated to gerontological
+                    research and postgraduate teaching on the mechanisms of aging as well as prevention of
+                    age-associated disorders. It has achieved international recognition for its integrative work on the
+                    neurodegeneration of the aging central nervous system and neurodegenerative diseases. The Centre’s
+                    scientists are renowned for their contributions in the fields of Alzheimer’s and Parkinson’s
+                    diseases and other cognitive disorders. The MCSA team is composed of neurologists, undergrad and
+                    grad students, post-doctoral fellows, administrative staff, research nurses and research assistants.
+                </p>
+                <h5> MCSA Crossroads </h5>
+                <p>Crossroads is a new annex to the MCSA that opened on April of 2018. Clinical aspects of the research
+                    projects, including biosample collections, neuropsychological assessments and clinical assessments,
+                    are conducted at this location. The research assistants at Crossroads assists in participant
+                    recruitment and scheduling of appointments for all measures of the study.</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+{% when 'fr' %}
+<div class="container-fluid">
+    <div class="row nowraprow pt-4 pb-2">
+        <h4 class=" text-center">{{ site.data.titleTrs['desc_facilities'][handle] }}</h4>
+    </div>
+    <div class="container-fluid containerWsidebar">
+        <div class="row nowraprow">
+            <div class="p-4">
+                <h5> McGill University Research Centre for Studies in Aging (MCSA) </h5>
+                <p>The MCSA was established in 1985 as a multi-disciplinary academic unit dedicated to gerontological
+                    research and postgraduate teaching on the mechanisms of aging as well as prevention of
+                    age-associated disorders. It has achieved international recognition for its integrative work on the
+                    neurodegeneration of the aging central nervous system and neurodegenerative diseases. The Centre’s
+                    scientists are renowned for their contributions in the fields of Alzheimer’s and Parkinson’s
+                    diseases and other cognitive disorders. The MCSA team is composed of neurologists, undergrad and
+                    grad students, post-doctoral fellows, administrative staff, research nurses and research assistants.
+                </p>
+                <h5> MCSA Crossroads </h5>
+                <p>Crossroads is a new annex to the MCSA that opened on April of 2018. Clinical aspects of the research
+                    projects, including biosample collections, neuropsychological assessments and clinical assessments,
+                    are conducted at this location. The research assistants at Crossroads assists in participant
+                    recruitment and scheduling of appointments for all measures of the study.</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+{% else %}
+Undefined Locale.
+{% endcase %}

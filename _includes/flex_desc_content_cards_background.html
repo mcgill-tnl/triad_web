@@ -1,0 +1,88 @@
+{% assign handle = include.lang %}
+{% assign translatedTo = "en,fr" | split: "," %}
+{% unless translatedTo contains handle %}{% assign handle = site.default_lang %}{% endunless %}
+
+{% case  handle %}
+{% when 'en' %}
+<div class="container-fluid">
+    <header class="sliderheader_wSideBar">
+        <div class="overlay">
+        </div>
+        <div class="pageparallax desc_background_parallax">
+        </div>
+    </header>
+    <div class="row nowraprow pt-4 pb-2">
+        <h4 class=" text-center">{{ site.data.titleTrs['desc_background'][handle] }}</h4>
+    </div>
+    <div class="container-fluid containerWsidebar">
+        <div class="row nowraprow">
+            <div class="p-4">
+                <p>Dementia affects over half a million Canadians, with Alzheimer’s disease (AD) accounting for 60-80
+                    percent of the cases (1,2). The disease mainly affects cognitive functioning and is often
+                    progressive (meaning it worsens over time), which leaves the affected individuals highly
+                    debilitated. Currently, in most progressive dementias, including AD, there is no cure or treatment
+                    to slow or stop the progression (2). As the aging population grows, dementia poses a rising
+                    challenge in our healthcare system. It is projected that the healthcare cost associated with
+                    dementia will increase to $16.6 billion by 2031 (3). This crisis calls for a need to expand on
+                    research for novel approaches to diagnose and treat dementia.
+                    The Translational Biomarkers in Aging and Dementia (TRIAD) cohort was established in 2017 to conduct
+                    leading studies on AD and other types of dementias. The cohort is composed of patients from the MCSA
+                    and the general public. Currently, over 1000 people are enrolled in the TRIAD cohort and around 500
+                    of them are participating in a study. The specific study measurements for subjects depend on the
+                    project, but the subjects generally undergo baseline and yearly follow-up appointments that include
+                    the following</p>
+                <ul class="flexlists">
+                    <li>Clinical assessments. </li>
+                    <li>Biosample collection: Blood, urine and saliva. </li>
+                    <li>Cerebrospical fluid (CSF) collection through lumbar puncture (optional). </li>
+                    <li>MRI</li>
+                    <li>PET scan: amyloid and tau scans + scans specific for the different studies</li>
+                    <li>Coginitive and neuropsychological assessments. </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% when 'fr' %}
+<div class="container-fluid">
+    <header class="sliderheader_wSideBar">
+        <div class="overlay">
+        </div>
+        <div class="pageparallax desc_background_parallax">
+        </div>
+    </header>
+    <div class="row nowraprow pt-4 pb-2">
+        <h4 class=" text-center">{{ site.data.titleTrs['desc_background'][handle] }}</h4>
+    </div>
+    <div class="container-fluid containerWsidebar">
+        <div class="row nowraprow">
+            <div class="p-4">
+                <p>Dementia affects over half a million Canadians, with Alzheimer’s disease (AD) accounting for 60-80
+                    percent of the cases (1,2). The disease mainly affects cognitive functioning and is often
+                    progressive (meaning it worsens over time), which leaves the affected individuals highly
+                    debilitated. Currently, in most progressive dementias, including AD, there is no cure or treatment
+                    to slow or stop the progression (2). As the aging population grows, dementia poses a rising
+                    challenge in our healthcare system. It is projected that the healthcare cost associated with
+                    dementia will increase to $16.6 billion by 2031 (3). This crisis calls for a need to expand on
+                    research for novel approaches to diagnose and treat dementia.
+                    The Translational Biomarkers in Aging and Dementia (TRIAD) cohort was established in 2017 to conduct
+                    leading studies on AD and other types of dementias. The cohort is composed of patients from the MCSA
+                    and the general public. Currently, over 1000 people are enrolled in the TRIAD cohort and around 500
+                    of them are participating in a study. The specific study measurements for subjects depend on the
+                    project, but the subjects generally undergo baseline and yearly follow-up appointments that include
+                    the following</p>
+                <ul class="flexlists">
+                    <li>Clinical assessments. </li>
+                    <li>Biosample collection: Blood, urine and saliva. </li>
+                    <li>Cerebrospical fluid (CSF) collection through lumbar puncture (optional). </li>
+                    <li>MRI</li>
+                    <li>PET scan: amyloid and tau scans + scans specific for the different studies</li>
+                    <li>Coginitive and neuropsychological assessments. </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% else %}
+Undefined Locale.
+{% endcase %}
