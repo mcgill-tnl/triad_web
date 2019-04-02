@@ -23,8 +23,7 @@
                 </ul>
             {% endif %}
 
-        </div>
-        
+        </div>    
         <button class="btn btn-light d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -41,7 +40,11 @@
                     {% elsif page.onepage %}
                     {% assign href = item.path %}
                     {% else %}
-                    {% assign href = 'index.html' | append:item.path | relative_url %}
+                        {% if site.active_lang == site.default_lang %} 
+                            {% assign href = site.baseurl | append:item.path | relative_url %}
+                        {% else %} 
+                            {% assign href = site.baseurl | append:site.active_lang | append:item.path | relative_url %}
+                        {% endif %}
                     {% endif %}
                     <a class="nav-link" href="{{ href }}">{{ site.data.titleTrs[item.trId][site.active_lang] }}</a>
                 </li>
@@ -54,7 +57,11 @@
                     {% elsif page.onepage %}
                     {% assign href = item.path %}
                     {% else %}
-                    {% assign href = 'index.html' | append:item.path | relative_url %}
+                        {% if site.active_lang == site.default_lang %} 
+                            {% assign href = site.baseurl | append:item.path | relative_url %}
+                        {% else %} 
+                            {% assign href = site.baseurl | append:site.active_lang | append:item.path | relative_url %}
+                        {% endif %}
                     {% endif %}
                     <a class="btn btn-sm btn-outline-secondary navbar-btn" href="{{ href }}">{{ site.data.titleTrs[item.trId][site.active_lang] }}</a>
                 </li>
