@@ -6,6 +6,10 @@
   trId: "about"
   path: "#about"
   section_id: about
+- name: Description
+  trId: "description"
+  path: "/description"
+  section_id: description
 - name: Stats
   trId: "stats"
   path: "#stats"
@@ -22,3 +26,7 @@
   trId: "contact"
   path: "#contact"
   section_id: contact
+- name: Participate
+  trId: "participate"
+  path: "/participate"
+  section_id: participate

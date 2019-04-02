@@ -24,7 +24,10 @@ team:
   fr: "Team FR"
 description:
   en: "Description"
-  fr: "Description"
+  fr: "Description FR"
+participate:
+  en: "Participate"
+  fr: "Participate FR"
 description_page_title:
   en: "Cohort Description"
   fr: "Cohort Description FR"

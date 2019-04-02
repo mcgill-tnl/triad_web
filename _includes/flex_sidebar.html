@@ -11,10 +11,12 @@
                     {% assign href = item.path | relative_url %}
                     {% elsif page.onepage %}
                     {% assign href = item.path %}
+                    {% elsif page.sidebar_onepage %}
+                    {% assign href = item.path %}
                     {% else %}
                     {% assign href = page.url | append:item.path | relative_url %}
                     {% endif %}
-                    <a href="{{ href }}">{{ site.data.titleTrs[item.trId][site.active_lang] }}</a>
+                    <a class="sidebar-link" href="{{ href }}">{{ site.data.titleTrs[item.trId][site.active_lang] }}</a>
                 </li>
                 {% endfor %}
     </ul>

@@ -67,7 +67,7 @@ p {
     }
 
 a, a:hover, a:focus {
-    color: inherit;
+    color: #ad403b69;
     text-decoration: none;
     transition: all 0.3s;
 }
@@ -76,23 +76,28 @@ a, a:hover, a:focus {
     min-width: 250px;
     max-width: 250px;
     min-height: 100vh;
+    height: 100%;
     transition: all 0.3s;
     background: #ffffff;
-    color: #ffc0d9;
+    color: #000000c9;
     transition: all 0.3s;
     padding: 15px 10px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    float: left;
+    position: -webkit-sticky;
+	position: sticky;
+	top: 70px;
 
 }
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #6d7fcc;
+    background: #ad403be8;
 }
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #47748b;
+    border-bottom: 1px solid #ad403be8;
 }
 
 #sidebar ul p {
@@ -106,7 +111,7 @@ a, a:hover, a:focus {
     display: block;
 }
 #sidebar ul li a:hover {
-    color: #7386D5;
+    color: #ad403be0;
     background: #fff;
 }
 
@@ -117,5 +122,5 @@ a, a:hover, a:focus {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc;
+    background: #ad403b8a;
 }
