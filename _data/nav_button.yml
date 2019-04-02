@@ -1,0 +1,8 @@
+- name: Description
+  trId: "description"
+  path: "/description"
+  section_id: description
+- name: Participate
+  trId: "participate"
+  path: "/participate"
+  section_id: participate

@@ -23,4 +23,10 @@
   padding-right: 0.5em;
   vertical-align: -webkit-baseline-middle;
 }
-
+.navbar-nav > li{
+  padding-left:0.25em;
+  padding-right:0.25em;
+}
+.navbar-btn{
+  margin-top:0.25rem;
+}
