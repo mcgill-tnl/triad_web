@@ -1,0 +1,76 @@
+{% assign handle = include.lang %}
+{% assign translatedTo = "en,fr" | split: "," %}
+{% unless translatedTo contains handle %}{% assign handle = site.default_lang %}{% endunless %}
+
+{% case  handle %}
+{% when 'en' %}
+<div class="container-fluid">
+    <header class="sliderheader_wSideBar">
+        <div class="overlay">
+        </div>
+        <div class="pageparallax part_info_parallax">
+        </div>
+    </header>
+    <div class="container-fluid containerWsidebar">
+        <div class="row nowraprow pt-4 pb-2">
+            <h4 class=" text-center">{{ site.data.titleTrs['part_info'][handle] }}</h4>
+        </div>
+        <div class="row nowraprow">
+            <div class="p-4">
+                <p>Our research looks at the changes that happen in people’s brains that contribute to dementia. Our lab
+                    focuses its research on Alzheimer’s Disease, which is the most common form of dementia and usually
+                    starts with people having trouble with their memory and other types of dementia. We are continually
+                    growing a group of participants who assist us by participating in our research. We use new
+                    techniques to create images of the locations where proteins are building up inside the brain in
+                    different populations, including those with dementia and those without. This helps to understand the
+                    early stages of dementia to discover the details of how Alzheimer’s and related diseases begin and
+                    progress.
+                    <br><br>
+                    Our team includes highly qualifies proffesionals any people who you will interact with you during
+                    your participation, and some who work behind the scenes. You will directly interact medical doctors
+                    (neurologists), nurses, neuropsychologists, research assistants and administrators. All the data
+                    gathered will be handled in a confidential manner by imaging analysis experts, computer scientists,
+                    and research students (undergraduate, Master’s & PhD). We are passionate and excited about this
+                    research and we would like to thank you for your interest and participation!
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% when 'fr' %}
+<div class="container-fluid">
+    <header class="sliderheader_wSideBar">
+        <div class="overlay">
+        </div>
+        <div class="pageparallax part_info_parallax">
+        </div>
+    </header>
+    <div class="container-fluid containerWsidebar">
+        <div class="row nowraprow pt-4 pb-2">
+            <h4 class=" text-center">{{ site.data.titleTrs['part_info'][handle] }}</h4>
+        </div>
+        <div class="row nowraprow">
+            <div class="p-4">
+                <p>Our research looks at the changes that happen in people’s brains that contribute to dementia. Our lab
+                    focuses its research on Alzheimer’s Disease, which is the most common form of dementia and usually
+                    starts with people having trouble with their memory and other types of dementia. We are continually
+                    growing a group of participants who assist us by participating in our research. We use new
+                    techniques to create images of the locations where proteins are building up inside the brain in
+                    different populations, including those with dementia and those without. This helps to understand the
+                    early stages of dementia to discover the details of how Alzheimer’s and related diseases begin and
+                    progress.
+                    <br><br>
+                    Our team includes highly qualifies proffesionals any people who you will interact with you during
+                    your participation, and some who work behind the scenes. You will directly interact medical doctors
+                    (neurologists), nurses, neuropsychologists, research assistants and administrators. All the data
+                    gathered will be handled in a confidential manner by imaging analysis experts, computer scientists,
+                    and research students (undergraduate, Master’s & PhD). We are passionate and excited about this
+                    research and we would like to thank you for your interest and participation!
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% else %}
+Undefined Locale.
+{% endcase %}

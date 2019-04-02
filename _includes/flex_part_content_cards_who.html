@@ -1,0 +1,40 @@
+{% assign handle = include.lang %}
+{% assign translatedTo = "en,fr" | split: "," %}
+{% unless translatedTo contains handle %}{% assign handle = site.default_lang %}{% endunless %}
+
+{% case  handle %}
+{% when 'en' %}
+<div class="container-fluid">
+    <div class="container-fluid containerWsidebar">
+        <div class="row nowraprow pt-4 pb-2">
+            <h4 class="text-left pl-4">{{ site.data.titleTrs['part_who'][handle] }}</h4>
+        </div>
+        <div class="row nowraprow">
+            <div class="p-4">
+                <p>We are recruiting participants to become part of our TRIAD cohort, which is a longitudinal study
+                    (happening over time from a few months to a few years). We are looking for people who can commit to
+                    coming for multiple scans, including adults of all ages, those with or without a family history of
+                    dementia, and those who feel there have been changes in their own memory or those who don’t. </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% when 'fr' %}
+<div class="container-fluid">
+    <div class="container-fluid containerWsidebar">
+        <div class="row nowraprow pt-4 pb-2">
+            <h4 class=" text-left pl-4">{{ site.data.titleTrs['part_who'][handle] }}</h4>
+        </div>
+        <div class="row nowraprow">
+            <div class="p-4">
+                <p>We are recruiting participants to become part of our TRIAD cohort, which is a longitudinal study
+                    (happening over time from a few months to a few years). We are looking for people who can commit to
+                    coming for multiple scans, including adults of all ages, those with or without a family history of
+                    dementia, and those who feel there have been changes in their own memory or those who don’t. </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% else %}
+Undefined Locale.
+{% endcase %}

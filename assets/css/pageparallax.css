@@ -29,3 +29,8 @@
   background-image: url("/assets/img/desc_groups.png");
   height: 500px; 
 }
+
+.part_info_parallax {
+  background-image: url("/assets/img/part_info.png");
+  height: 500px; 
+}

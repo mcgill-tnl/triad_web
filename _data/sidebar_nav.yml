@@ -19,11 +19,11 @@ desc:
    trId: "desc_groups"
    path: "#groups"
    section_id: "groups"
-participants:
- - name: About
-   trId: "part_about"
-   path: "#about"
-   section_id: "about"
+participate:
+ - name: Info
+   trId: "part_info"
+   path: "#info"
+   section_id: "info"
  - name: Who
    trId: "part_who"
    path: "#who"

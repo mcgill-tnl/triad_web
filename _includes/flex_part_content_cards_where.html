@@ -1,0 +1,99 @@
+{% assign handle = include.lang %}
+{% assign translatedTo = "en,fr" | split: "," %}
+{% unless translatedTo contains handle %}{% assign handle = site.default_lang %}{% endunless %}
+
+{% case  handle %}
+{% when 'en' %}
+<div class="container-fluid">
+    <div class="container-fluid containerWsidebar">
+        <div class="row nowraprow pt-4 pb-2">
+            <h4 class="text-left pl-4">{{ site.data.titleTrs['part_where'][handle] }}</h4>
+        </div>
+        <div class="row nowraprow">
+            <div class="p-4">
+                <p>Our research occurs at three different sites. </p>
+                <div class="row p-4">
+                    <div class="col-md-6">
+                        <p> <strong> McGill Centre for Studies in Aging (MCSA)</strong> is a victorian house situated at
+                            the grounds of the Douglas Hospital (Verdun). When entering the Douglas grounds directly off
+                            of Lasalle Boulevard it is found at the second driveway on the right. </p>
+                        <p><strong>Address: </strong>6825 Boulevard LaSalle, Verdun</p>
+                        <p><strong>What is done here: </strong></p>
+                        <ul class="flexlists">
+                            <li>Clinical visits</li>
+                            <li>Data analysis</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 100%">
+                            <iframe frameborder="0" style="border:0"
+                                src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJAQAMgFQQyUwRNC-39m8mRIY&key=AIzaSyBWLpjxQvtzvxf96CsAIGOM7uV3_ydkTe0"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row p-4">
+                    <div class="col-md-6">
+                        <p> <strong> Crossroads </strong> is an annex house of the MCSA also located at the grounds of the Douglas Hospital (Verdun). When entering the Douglas grounds directly off of Lasalle boulevard it is found at the first driveway on the right.  </p>
+                        <p><strong>Address: </strong>6875 Boulevard LaSalle, Verdun</p>
+                        <p><strong>What is done here: </strong></p>
+                        <ul class="flexlists">
+                            <li>Clinical assessment</li>
+                            <li>Physical and neurological examination</li>
+                            <li>Cognitive and Neuropsychological exams </li>
+                            <li>Collecting fluid samples (blood, urine or saliva) </li>
+                            <li>Lumbar puncture (spinal tap) if you are having this done </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 100%">
+                            <iframe frameborder="0" style="border:0"
+                                src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJAQAMgFQQyUwRNC-39m8mRIY&key=AIzaSyBWLpjxQvtzvxf96CsAIGOM7uV3_ydkTe0"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row p-4">
+                    <div class="col-md-6">
+                        <p> <strong> Montreal Neurological Institute</strong> (also called the MNI or “The Neuro”) </p>
+                        <p><strong>Address: </strong>3801 Rue Université, Montréal</p>
+                        <p><strong>What is done here: </strong></p>
+                        <ul class="flexlists">
+                            <li>All of the PET studies</li>
+                            <li>MRI scan</li>
+                        </ul>
+                        <p>To get the PET and MRI scans done you will arrive to the MNI and be met by a member of our research team who will guide you to the correct location and be with you through the process. </p>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 100%">
+                            <iframe frameborder="0" style="border:0"
+                                src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJAQAMgFQQyUwRNC-39m8mRIY&key=AIzaSyBWLpjxQvtzvxf96CsAIGOM7uV3_ydkTe0"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+{% when 'fr' %}
+<div class="container-fluid">
+    <div class="container-fluid containerWsidebar">
+        <div class="row nowraprow pt-4 pb-2">
+            <h4 class="text-left pl-4">{{ site.data.titleTrs['part_how'][handle] }}</h4>
+        </div>
+        <div class="row nowraprow">
+            <div class="p-4">
+                <p>Contact Jenna Stevenson, research coordinator at 514‐761-6131 #6321 and you will undergo over the
+                    phone some basic questions to see if you are a good candidate for participating in the studies
+                    before inviting you to come in person to our site at the McGill Center for Studies in Aging. </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% else %}
+Undefined Locale.
+{% endcase %}

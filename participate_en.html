@@ -1,0 +1,29 @@
+---
+title: Participate
+permalink: /participate/
+lang: en
+layout: flex_default_w_side
+sidebar_onepage: true
+---
+
+{% assign actlang = site.active_lang %}
+{% assign page_title_long = site.data.titleTrs['participate_page_title'][actlang] %}
+{% include flex_sidebar.html lang=actlang page_title=page_title_long page_id="participate" %}
+
+<a id='info'></a>
+{% include flex_part_content_cards_info.html lang=actlang %}
+
+<a id='who'></a>
+{% include flex_part_content_cards_who.html lang=actlang %}
+
+<a id='how'></a>
+{% include flex_part_content_cards_how.html lang=actlang %}
+
+<a id='what'></a>
+{% include flex_part_content_cards_what.html lang=actlang %}
+
+<a id='tests'></a>
+{% include flex_part_content_cards_tests.html lang=actlang %}
+
+<a id='where'></a>
+{% include flex_part_content_cards_where.html lang=actlang %}

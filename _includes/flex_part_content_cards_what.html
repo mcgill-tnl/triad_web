@@ -1,0 +1,64 @@
+{% assign handle = include.lang %}
+{% assign translatedTo = "en,fr" | split: "," %}
+{% unless translatedTo contains handle %}{% assign handle = site.default_lang %}{% endunless %}
+
+{% case  handle %}
+{% when 'en' %}
+<div class="container-fluid">
+    <div class="container-fluid containerWsidebar">
+        <div class="row nowraprow pt-4 pb-2">
+            <h4 class="text-left pl-4">{{ site.data.titleTrs['part_what'][handle] }}</h4>
+        </div>
+        <div class="row nowraprow">
+            <div class="p-4">
+                <p>For most participants the following steps will happen if you show interest in participating in one of
+                    our studies (some of the steps may not happen in the same order, and some people will have some
+                    tests but not all of them depending on the study – you will have to discuss your own participation
+                    with one of the members of our team): </p>
+                <ul class="flexlists">
+                    <li>Phone Interview</li>
+                    <li>Screening and Samples Collection (blood/ urine/ saliva) </li>
+                    <li>Neuropsychological assessments </li>
+                    <li>Lumbar Puncture/ Spinal Tap (Optional)</li>
+                    <li>MRI scan </li>
+                    <li>Amyloid (a type of protein) PET scan </li>
+                    <li>Tau (a type of protein) PET scan or other types of PET scans </li>
+                </ul>
+                <p>Before participating in the study, all of these steps will be explained to you by one of the members
+                    of our team and you will be asked to sign a consent form which includes - in writing -the detailed
+                    information about the study. </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% when 'fr' %}
+<div class="container-fluid">
+    <div class="container-fluid containerWsidebar">
+        <div class="row nowraprow pt-4 pb-2">
+            <h4 class="text-left pl-4">{{ site.data.titleTrs['part_what'][handle] }}</h4>
+        </div>
+        <div class="row nowraprow">
+            <div class="p-4">
+                <p>For most participants the following steps will happen if you show interest in participating in one of
+                    our studies (some of the steps may not happen in the same order, and some people will have some
+                    tests but not all of them depending on the study – you will have to discuss your own participation
+                    with one of the members of our team): </p>
+                <ul class="flexlists">
+                    <li>Phone Interview</li>
+                    <li>Screening and Samples Collection (blood/ urine/ saliva) </li>
+                    <li>Neuropsychological assessments </li>
+                    <li>Lumbar Puncture/ Spinal Tap (Optional)</li>
+                    <li>MRI scan </li>
+                    <li>Amyloid (a type of protein) PET scan </li>
+                    <li>Tau (a type of protein) PET scan or other types of PET scans </li>
+                </ul>
+                <p>Before participating in the study, all of these steps will be explained to you by one of the members
+                    of our team and you will be asked to sign a consent form which includes - in writing -the detailed
+                    information about the study. </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% else %}
+Undefined Locale.
+{% endcase %}
