@@ -18,6 +18,7 @@ js:
   - /assets/js/font-awesome.js
   - /assets/js/custom/smooth_scroll.js
   - /assets/js/custom/flipcard.js
+  - /assets/js/custom/sidebar.js
 headjs:
   - https://www.gstatic.com/charts/loader.js
   - /assets/js/custom/stats.js
