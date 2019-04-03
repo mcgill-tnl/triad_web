@@ -1,9 +1,12 @@
+TRIAD:
+  en: "TRIAD"
+  fr: "BIOVIE"
 triad:
   en: "TRIAD"
-  fr: "TRIAD"
+  fr: "BIOVIE"
 triadLong:
   en: "Translational Biomarkers of Aging and Dementia"
-  fr: "Translational Biomarkers of Aging and Dementia FR"
+  fr: "Biomarqueurs de Vieillissement et de Démence"
 home:
   en: "Home"
   fr: "Home FR"
