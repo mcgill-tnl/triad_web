@@ -19,6 +19,7 @@ function drawDiagChart() {
 
   // Set chart options
   var DiagCountoptions = {
+    backgroundColor: 'transparent',
     'dataOpacity': 0.5,
     'legend': {
       'position': 'in',

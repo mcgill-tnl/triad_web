@@ -1,0 +1,34 @@
+{% assign handle = include.lang %}
+{% assign translatedTo = "en,fr" | split: "," %}
+{% unless translatedTo contains handle %}{% assign handle = site.default_lang %}{% endunless %}
+
+{% case  handle %}
+{% when 'en' %}
+<div class="container-fluid">
+    <div class="container-fluid containerWsidebar">
+        <div class="row nowraprow pt-4 pb-2">
+            <h4 class="text-left pl-4">{{ site.data.titleTrs['part_how'][handle] }}</h4>
+        </div>
+        <div class="row nowraprow">
+            <div class="p-4">
+                <p>Contact Jenna Stevenson, research coordinator at 514‐761-6131 #6321 and you will undergo over the phone some basic questions to see if you are a good candidate for participating in the studies before inviting you to come in person to our site at the McGill Center for Studies in Aging.  </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% when 'fr' %}
+<div class="container-fluid">
+        <div class="container-fluid containerWsidebar">
+            <div class="row nowraprow pt-4 pb-2">
+                <h4 class="text-left pl-4">{{ site.data.titleTrs['part_how'][handle] }}</h4>
+            </div>
+            <div class="row nowraprow">
+                <div class="p-4">
+                    <p>Contact Jenna Stevenson, research coordinator at 514‐761-6131 #6321 and you will undergo over the phone some basic questions to see if you are a good candidate for participating in the studies before inviting you to come in person to our site at the McGill Center for Studies in Aging.  </p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% else %}
+Undefined Locale.
+{% endcase %}

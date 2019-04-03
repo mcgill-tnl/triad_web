@@ -1,0 +1,41 @@
+.pageparallax { 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.containerWsidebar{
+  padding-left: 250px;
+  margin-left: 1rem;
+}
+@media (max-width: 768px) {
+  .containerWsidebar{
+    padding-left: 0px;
+  }
+
+}
+.desc_background_parallax {
+  background-image: url("/assets/img/desc_background.png");
+  height: 500px; 
+}
+
+.desc_aims_parallax {
+  background-image: url("/assets/img/desc_aims.png");
+  height: 500px; 
+}
+
+.desc_measures_parallax {
+  background-image: url("/assets/img/desc_measures.png");
+  height: 500px; 
+}
+
+.desc_groups_parallax {
+  background-image: url("/assets/img/desc_groups.png");
+  height: 500px; 
+}
+
+.part_info_parallax {
+  background-image: url("/assets/img/part_info.png");
+  height: 500px; 
+}

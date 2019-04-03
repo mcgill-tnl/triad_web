@@ -1,0 +1,36 @@
+{% assign handle = include.lang %}
+{% assign translatedTo = "en,fr" | split: "," %}
+{% unless translatedTo contains handle %}{% assign handle = site.default_lang %}{% endunless %}
+
+{% case  handle %}
+{% when 'en' %}
+<div class="container">
+    <div class="row nowraprow pt-4 pb-2">
+        <h4 class=" text-center">{{ site.data.titleTrs['stats'][handle] }}</h4>
+    </div>
+    <div class="row ">
+        <div class="col-md-5">
+            <div id="pie_diag_count_chart_div" class="chart"></div>
+        </div>
+        <div class="col-md-7">
+            <div id="diag_count_chart_div" class="chart"></div>
+        </div>
+    </div>
+</div>
+{% when 'fr' %}
+<div class="container">
+        <div class="row nowraprow pt-4 pb-2">
+            <h4 class=" text-center">{{ site.data.titleTrs['stats'][handle] }}</h4>
+        </div>
+        <div class="row ">
+            <div class="col-md-5">
+                <div id="pie_diag_count_chart_div" class="chart"></div>
+            </div>
+            <div class="col-md-7">
+                <div id="diag_count_chart_div" class="chart"></div>
+            </div>
+        </div>
+    </div>
+{% else %}
+Undefined Locale.
+{% endcase %}

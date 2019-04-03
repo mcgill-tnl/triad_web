@@ -23,8 +23,17 @@ team:
   en: "Team"
   fr: "Team FR"
 description:
-  en: "Description"
-  fr: "Description"
+  en: "Cohort Description"
+  fr: "Cohort Description FR"
+participate:
+  en: "Participate"
+  fr: "Participate FR"
+description_page_title:
+  en: "Cohort Description"
+  fr: "Cohort Description FR"
+participate_page_title:
+  en: "Participate in TRIAD"
+  fr: "Participate in TRIAD FR"
 data:
   en: "Data"
   fr: "Data FR"
@@ -46,3 +55,21 @@ desc_measures:
 desc_groups:
   en: "Study Groups"
   fr: "Study Groups FR"
+part_info:
+  en: "Information for participants. "
+  fr: "Information for participants. FR"
+part_who:
+  en: "Who are we looking for?"
+  fr: "Who are we looking for? FR" 
+part_how:
+  en: "How can you get involved?"
+  fr: "How can you get involved? FR"
+part_what:
+  en: "What to expect?"
+  fr: "What to expect? FR"
+part_tests:
+  en: "What happens during the tests?"
+  fr: "What happens during the tests? FR"
+part_where:
+  en: "Where will this take place?"
+  fr: "Where will this take place? FR"

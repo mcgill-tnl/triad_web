@@ -2,5 +2,25 @@
 title: Description
 permalink: /description/
 lang: en
-layout: default
+layout: flex_default_w_side
+sidebar_onepage: true
 ---
+
+{% assign actlang = site.active_lang %}
+{% assign page_title_long = site.data.titleTrs['description_page_title'][actlang] %}
+{% include flex_sidebar.html lang=actlang page_title=page_title_long page_id="desc" %}
+
+<a id='background'></a>
+{% include flex_desc_content_cards_background.html lang=actlang %}
+
+<a id='aims'></a>
+{% include flex_desc_content_cards_aims.html lang=actlang %}
+
+<a id='facilities'></a>
+{% include flex_desc_content_cards_facilities.html lang=actlang %}
+
+<a id='measures'></a>
+{% include flex_desc_content_cards_measures.html lang=actlang %}
+
+<a id='groups'></a>
+{% include flex_desc_content_cards_groups.html lang=actlang %}

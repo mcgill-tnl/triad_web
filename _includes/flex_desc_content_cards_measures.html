@@ -1,0 +1,404 @@
+{% assign handle = include.lang %}
+{% assign translatedTo = "en,fr" | split: "," %}
+{% unless translatedTo contains handle %}{% assign handle = site.default_lang %}{% endunless %}
+
+{% case  handle %}
+{% when 'en' %}
+<div class="container-fluid">
+    <header class="sliderheader_wSideBar">
+        <div class="overlay">
+        </div>
+        <div class="pageparallax desc_measures_parallax">
+        </div>
+    </header>
+    <div class="container-fluid containerWsidebar">
+        <div class="row nowraprow pt-4 pb-2">
+            <h4 class=" text-center">{{ site.data.titleTrs['desc_measures'][handle] }}</h4>
+        </div>
+        <div class="row nowraprow">
+            <div class="p-4">
+                <ul class="flexlists">
+                    <li><strong> Physical and neurological tests:</strong> during the baseline visit conducted by a
+                        physician </li>
+                    <br>
+                    <li><strong>Clinical Screening: </strong> during the baseline visit conducted by a research nurse
+                        <ul class="flexlists" style="font-size:0.9em; padding-left:2em">
+                            <li>Demographics</li>
+                            <li>Eligibility criteria</li>
+                            <li>Family history</li>
+                            <li>List of medication</li>
+                        </ul>
+                    </li>
+                    <br>
+                    <li><strong> Neuropsychological battery:</strong>this battery of tests is made of different memory,
+                        attention and fluency exercises, conducted by the neuropsychologist or the psychometrician.
+                        <div class="table-responsive" style="padding-left:2em">
+                            <table class="table table-sm" style="font-size:0.9em; color:#787878">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Tests</th>
+                                        <th scope="col">Questionnaires</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="width:50%">Mini Mental State Examination (MMSE)</td>
+                                        <td style="width:50%">Clinical Dementia Rating (CDR)</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Montreal Cognitive Assessment (MoCA)</td>
+                                        <td style="width:50%">NPI questionnaire</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Rey Auditory Verbal Learning Test (RAVLT)</td>
+                                        <td style="width:50%">Geriatric depression scale (GDS)</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Aggie Figure test</td>
+                                        <td style="width:50%">Beck Depression Inventory II</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Face-Name association test</td>
+                                        <td style="width:50%">Geriatric anxiety inventory (GAI)</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Brief Visuospatial Memory Test (BVMT)</td>
+                                        <td style="width:50%">Apathy inventory</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Logical memory</td>
+                                        <td style="width:50%">Hachinski ischemic scale</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Emotional Memory Test</td>
+                                        <td style="width:50%">Subjective questionnaire</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Digit span (WAIS-III; forward and backward)</td>
+                                        <td style="width:50%">Epworth sleep questionnaire</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Boston naming</td>
+                                        <td style="width:50%">Sleep duration questionnaire</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Semantic verbal fluency</td>
+                                        <td style="width:50%">MBI-C</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">IQ (WASI-II; matrix reasoning, vocabulary)</td>
+                                        <td style="width:50%">Functional activity questionnaire</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Digit symbol (WAIS-III)</td>
+                                        <td style="width:50%">eCOG</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Stroop test (D-KEFS)</td>
+                                        <td style="width:50%">Exercise questionnaire (GPAQ)</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Trail making</td>
+                                        <td style="width:50%">Nutrition assessment</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">BORB – object decision test</td>
+                                        <td style="width:50%">Generalized anxiety disorder questionnaire (GAD7)</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">BORB – line orientation</td>
+                                        <td style="width:50%">Social support questionnaire</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Pyramids and Palm trees test</td>
+                                        <td style="width:50%"></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">For English speakers: sentences in English (UCSF), for
+                                            French
+                                            speakers:
+                                            repetition du Montréal-Toulouse</td>
+                                        <td style="width:50%"></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Dictation task</td>
+                                        <td style="width:50%"></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Rey Osterrieth Complex Figure test (copy)</td>
+                                        <td style="width:50%"></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Oral description of the picnic scene picture (Western
+                                            Aphasia
+                                            Battery)</td>
+                                        <td style="width:50%"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                    <br>
+                    <li><strong>Biosample collection:</strong> Cerebrospinal fluid (CSF), blood, urine and saliva are
+                        collected by the research nurse </li>
+                    <br>
+                    <li><strong>Common Scans to all studies:</strong>
+                        <ul style="font-size:0.9em; padding-left:2em">
+                            <li>
+                                Magnetic Resonance Imaging (MRI): this scanner will allow us to take 3-dimensional
+                                images of
+                                the brain, thanks to magnetic fields and radio waves. This scan is necessary for
+                                co-registration purposes.
+                            </li>
+                            <li>
+                                Positron emission tomography (PET): this isotopic scan requires the injection of a
+                                slightly
+                                radioactive product. This tracer will then bind to a specific target, depending on which
+                                tracer was chosen. A special scanning machine will then take pictures of the
+                                participant’s
+                                brain, in order to quantify each target in different regions of the brain.
+                                <ul style="font-size:0.9em; padding-left:2em">
+                                    <li>
+                                        [<sup>18</sup>F]MK6240: this tracer enables us to observe tau deposition in the
+                                        brain.
+                                    </li>
+                                    <li>
+                                        [<sup>18</sup>F]NAV4694 : this tracer will allow us to quantify amyloid
+                                        deposition
+                                        in the brain
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <br>
+                    <li><strong>Scans related to specific studies:</strong>
+                        <ul style="font-size:0.9em; padding-left:2em">
+                            <li>
+                                [<sup>18</sup>F]PI-2620, [<sup>18</sup>F]RO-948 or [<sup>18</sup>F]AV1451: tracers for
+                                the tau protein accumulation.
+                            </li>
+                            <li>
+                                [<sup>18</sup>F]UCB-J: this tracer enables us to observe the synaptic density, targeting
+                                a molecule present in the synaptic vesicles, protein SV2a. Neurodegenerative diseases
+                                are usually linked to neuronal loss, and so, synapses.
+                            </li>
+                            <li>
+                                [<sup>11</sup>C]PBR28 and [<sup>18</sup>F]DPA: Tracers targeting the TSPO molecule. TSPO
+                                is a molecular target enabling the quantification of microglial activation; meaning, the
+                                amount of inflammation present in the brain. This allows us to know to which degree, as
+                                well as which regions are impacted by neuroinflammation.
+                            </li>
+                            <li>
+                                [<sup>11</sup>C]MRT: This tracer reflects histone deacetylases (HDAC) expression, an
+                                enzyme that help in the regulation of gene transcription. A particular type of these
+                                HDACs has been linked to important neurological diseases.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% when 'fr' %}
+<div class="container-fluid">
+    <header class="sliderheader_wSideBar">
+        <div class="overlay">
+        </div>
+        <div class="pageparallax desc_measures_parallax">
+        </div>
+    </header>
+    <div class="container-fluid containerWsidebar">
+        <div class="row nowraprow pt-4 pb-2">
+            <h4 class=" text-center">{{ site.data.titleTrs['desc_measures'][handle] }}</h4>
+        </div>
+        <div class="row nowraprow">
+            <div class="p-4">
+                <ul class="flexlists">
+                    <li><strong> Physical and neurological tests:</strong> during the baseline visit conducted by a
+                        physician </li>
+                    <br>
+                    <li><strong>Clinical Screening: </strong> during the baseline visit conducted by a research nurse
+                        <ul class="flexlists" style="font-size:0.9em; padding-left:2em">
+                            <li>Demographics</li>
+                            <li>Eligibility criteria</li>
+                            <li>Family history</li>
+                            <li>List of medication</li>
+                        </ul>
+                    </li>
+                    <br>
+                    <li><strong> Neuropsychological battery:</strong>this battery of tests is made of different memory,
+                        attention and fluency exercises, conducted by the neuropsychologist or the psychometrician.
+                        <div class="table-responsive" style="padding-left:2em">
+                            <table class="table table-sm" style="font-size:0.9em; color:#787878">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Tests</th>
+                                        <th scope="col">Questionnaires</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="width:50%">Mini Mental State Examination (MMSE)</td>
+                                        <td style="width:50%">Clinical Dementia Rating (CDR)</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Montreal Cognitive Assessment (MoCA)</td>
+                                        <td style="width:50%">NPI questionnaire</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Rey Auditory Verbal Learning Test (RAVLT)</td>
+                                        <td style="width:50%">Geriatric depression scale (GDS)</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Aggie Figure test</td>
+                                        <td style="width:50%">Beck Depression Inventory II</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Face-Name association test</td>
+                                        <td style="width:50%">Geriatric anxiety inventory (GAI)</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Brief Visuospatial Memory Test (BVMT)</td>
+                                        <td style="width:50%">Apathy inventory</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Logical memory</td>
+                                        <td style="width:50%">Hachinski ischemic scale</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Emotional Memory Test</td>
+                                        <td style="width:50%">Subjective questionnaire</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Digit span (WAIS-III; forward and backward)</td>
+                                        <td style="width:50%">Epworth sleep questionnaire</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Boston naming</td>
+                                        <td style="width:50%">Sleep duration questionnaire</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Semantic verbal fluency</td>
+                                        <td style="width:50%">MBI-C</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">IQ (WASI-II; matrix reasoning, vocabulary)</td>
+                                        <td style="width:50%">Functional activity questionnaire</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Digit symbol (WAIS-III)</td>
+                                        <td style="width:50%">eCOG</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Stroop test (D-KEFS)</td>
+                                        <td style="width:50%">Exercise questionnaire (GPAQ)</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Trail making</td>
+                                        <td style="width:50%">Nutrition assessment</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">BORB – object decision test</td>
+                                        <td style="width:50%">Generalized anxiety disorder questionnaire (GAD7)</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">BORB – line orientation</td>
+                                        <td style="width:50%">Social support questionnaire</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Pyramids and Palm trees test</td>
+                                        <td style="width:50%"></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">For English speakers: sentences in English (UCSF), for
+                                            French
+                                            speakers:
+                                            repetition du Montréal-Toulouse</td>
+                                        <td style="width:50%"></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Dictation task</td>
+                                        <td style="width:50%"></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Rey Osterrieth Complex Figure test (copy)</td>
+                                        <td style="width:50%"></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:50%">Oral description of the picnic scene picture (Western
+                                            Aphasia
+                                            Battery)</td>
+                                        <td style="width:50%"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                    <br>
+                    <li><strong>Biosample collection:</strong> Cerebrospinal fluid (CSF), blood, urine and saliva are
+                        collected by the research nurse </li>
+                    <br>
+                    <li><strong>Common Scans to all studies:</strong>
+                        <ul style="font-size:0.9em; padding-left:2em">
+                            <li>
+                                Magnetic Resonance Imaging (MRI): this scanner will allow us to take 3-dimensional
+                                images of
+                                the brain, thanks to magnetic fields and radio waves. This scan is necessary for
+                                co-registration purposes.
+                            </li>
+                            <li>
+                                Positron emission tomography (PET): this isotopic scan requires the injection of a
+                                slightly
+                                radioactive product. This tracer will then bind to a specific target, depending on which
+                                tracer was chosen. A special scanning machine will then take pictures of the
+                                participant’s
+                                brain, in order to quantify each target in different regions of the brain.
+                                <ul style="font-size:0.9em; padding-left:2em">
+                                    <li>
+                                        [<sup>18</sup>F]MK6240: this tracer enables us to observe tau deposition in the
+                                        brain.
+                                    </li>
+                                    <li>
+                                        [<sup>18</sup>F]NAV4694 : this tracer will allow us to quantify amyloid
+                                        deposition
+                                        in the brain
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <br>
+                    <li><strong>Scans related to specific studies:</strong>
+                        <ul style="font-size:0.9em; padding-left:2em">
+                            <li>
+                                [<sup>18</sup>F]PI-2620, [<sup>18</sup>F]RO-948 or [<sup>18</sup>F]AV1451: tracers for
+                                the tau protein accumulation.
+                            </li>
+                            <li>
+                                [<sup>18</sup>F]UCB-J: this tracer enables us to observe the synaptic density, targeting
+                                a molecule present in the synaptic vesicles, protein SV2a. Neurodegenerative diseases
+                                are usually linked to neuronal loss, and so, synapses.
+                            </li>
+                            <li>
+                                [<sup>11</sup>C]PBR28 and [<sup>18</sup>F]DPA: Tracers targeting the TSPO molecule. TSPO
+                                is a molecular target enabling the quantification of microglial activation; meaning, the
+                                amount of inflammation present in the brain. This allows us to know to which degree, as
+                                well as which regions are impacted by neuroinflammation.
+                            </li>
+                            <li>
+                                [<sup>11</sup>C]MRT: This tracer reflects histone deacetylases (HDAC) expression, an
+                                enzyme that help in the regulation of gene transcription. A particular type of these
+                                HDACs has been linked to important neurological diseases.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% else %}
+Undefined Locale.
+{% endcase %}

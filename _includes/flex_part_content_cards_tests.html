@@ -1,0 +1,69 @@
+{% assign handle = include.lang %}
+{% assign translatedTo = "en,fr" | split: "," %}
+{% unless translatedTo contains handle %}{% assign handle = site.default_lang %}{% endunless %}
+
+{% case  handle %}
+{% when 'en' %}
+<div class="container-fluid">
+    <div class="container-fluid containerWsidebar">
+        <div class="row nowraprow pt-4 pb-2">
+            <h4 class="text-left pl-4">{{ site.data.titleTrs['part_tests'][handle] }}</h4>
+        </div>
+        <div class="row nowraprow">
+            <div class="p-4">
+                <h6>Screening and Samples Collection (blood/ urine/ saliva)</h6>
+                <p>Screening will include questions about your past and current health, your family history and any troubles you have with your memory. There will be a physical exam to test your neurological health such as your balance and walking. Short questionnaires related to memory may be done at this time or during the neuropsychological assessment.  </p>
+                <p>You will be asked to provide samples of body fluids that we use to assess your current health and your genetics. If this is a blood test a nurse will draw a sample of blood as you may have had done for previous blood tests at the doctor’s office, saliva and urine will also be collected. </p>
+                
+                <h6>Neuropsychological assessments</h6>
+                <p>These are a series of tests looking at your cognition and memory. We may ask a close family member or friend to describe your day-to-day memory as well. These tests cover a lot of different areas of thinking and problem solving, and can take around 4 hours to complete, so they are completed over 1 or sometimes 2 visits. There is no preparation needed for these questionnaires, and the neuropsychologist will be guiding you through the different tests with proper instructions. </p>
+                
+                <h6>Lumbar Puncture/ Spinal Tap  (Optional)</h6>
+                <p>This is a procedure that is performed by a medical doctor which allows us to collect a sample of cerebral spinal fluid (CSF) (the fluid that surrounds your brain and spinal cord) to look for the types of proteins that we also look for during the PET scans (amyloid and tau). You will lie down on your side and the doctor will insert a needle in your back and remove a small amount of fluid. Most people find this procedure painless once the skin is frozen, but you may feel a poke. Most of the time people don’t feel any effects, but some people, especially those who are young, will have a headache after the procedure. The research nurse and the neurologist will go through every aspect of the procedure and the nurse will call you 24 hours after the procedure is done to make sure you are feeling well.  </p>
+                
+                <h6>MRI scan  </h6>
+                <p>This is an imaging scan of your head that looks at the structure and anatomy of your brain. It uses a large magnet, but no radiation, to make the images. Consequently, we will ask you if you have any permanent metal in your body (such as a clipped aneurysm or a pacemaker). The procedure is simple but if you have a problem with claustrophobia (being afraid of small spaces) you should let our team know. It is painless but can be quite loud so people usually wear earplugs and soft music is played in the background. The length of the scan can be different depending on which study you participate in but it is often around 45 to 60 minutes in total.  </p>
+                
+                <h6>PET scans  </h6>
+                <p>These are a type of brain scan, which uses a small dose of radioactive tracer, which sticks to certain proteins or molecules in the brain, and releases small radioactive signals, which can be read by the PET scanner. The tracer is injected through a small needle (like for a blood draw) and then a certain amount of time later the images are taken, in a machine much like a CT scanner, where only your head will be placed in it, and your body will be outside. The length of time of the scan can be different depending on which study you participate.  </p>
+                
+                <p>Often we ask participants to complete a few different PET studies, to look at different factors implicated in aging, for example, amyloid protein, tau protein and markers of neuroinflammation. A member of our team will explain to the different scans proposed to you. </p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+{% when 'fr' %}
+<div class="container-fluid">
+        <div class="container-fluid containerWsidebar">
+            <div class="row nowraprow pt-4 pb-2">
+                <h4 class="text-left pl-4">{{ site.data.titleTrs['part_tests'][handle] }}</h4>
+            </div>
+            <div class="row nowraprow">
+                <div class="p-4">
+                    <h6>Screening and Samples Collection (blood/ urine/ saliva)</h6>
+                    <p>Screening will include questions about your past and current health, your family history and any troubles you have with your memory. There will be a physical exam to test your neurological health such as your balance and walking. Short questionnaires related to memory may be done at this time or during the neuropsychological assessment.  </p>
+                    
+                    <p>You will be asked to provide samples of body fluids that we use to assess your current health and your genetics. If this is a blood test a nurse will draw a sample of blood as you may have had done for previous blood tests at the doctor’s office, saliva and urine will also be collected. </p>
+                    
+                    <h6>Neuropsychological assessments</h6>
+                    <p>These are a series of tests looking at your cognition and memory. We may ask a close family member or friend to describe your day-to-day memory as well. These tests cover a lot of different areas of thinking and problem solving, and can take around 4 hours to complete, so they are completed over 1 or sometimes 2 visits. There is no preparation needed for these questionnaires, and the neuropsychologist will be guiding you through the different tests with proper instructions. </p>
+                    
+                    <h6>Lumbar Puncture/ Spinal Tap  (Optional)</h6>
+                    <p>This is a procedure that is performed by a medical doctor which allows us to collect a sample of cerebral spinal fluid (CSF) (the fluid that surrounds your brain and spinal cord) to look for the types of proteins that we also look for during the PET scans (amyloid and tau). You will lie down on your side and the doctor will insert a needle in your back and remove a small amount of fluid. Most people find this procedure painless once the skin is frozen, but you may feel a poke. Most of the time people don’t feel any effects, but some people, especially those who are young, will have a headache after the procedure. The research nurse and the neurologist will go through every aspect of the procedure and the nurse will call you 24 hours after the procedure is done to make sure you are feeling well.  </p>
+                    
+                    <h6>MRI scan  </h6>
+                    <p>This is an imaging scan of your head that looks at the structure and anatomy of your brain. It uses a large magnet, but no radiation, to make the images. Consequently, we will ask you if you have any permanent metal in your body (such as a clipped aneurysm or a pacemaker). The procedure is simple but if you have a problem with claustrophobia (being afraid of small spaces) you should let our team know. It is painless but can be quite loud so people usually wear earplugs and soft music is played in the background. The length of the scan can be different depending on which study you participate in but it is often around 45 to 60 minutes in total.  </p>
+                    
+                    <h6>PET scans  </h6>
+                    <p>These are a type of brain scan, which uses a small dose of radioactive tracer, which sticks to certain proteins or molecules in the brain, and releases small radioactive signals, which can be read by the PET scanner. The tracer is injected through a small needle (like for a blood draw) and then a certain amount of time later the images are taken, in a machine much like a CT scanner, where only your head will be placed in it, and your body will be outside. The length of time of the scan can be different depending on which study you participate.  </p>
+                    
+                    <p>Often we ask participants to complete a few different PET studies, to look at different factors implicated in aging, for example, amyloid protein, tau protein and markers of neuroinflammation. A member of our team will explain to the different scans proposed to you. </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+{% else %}
+Undefined Locale.
+{% endcase %}

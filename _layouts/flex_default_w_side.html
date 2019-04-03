@@ -3,12 +3,13 @@
 {% include head.html %}
 
 <body>
-  <a id='top'></a>
-  {% include nav-bar.html %}
+    <a id='top'></a>
+    <div class="flexwrapper"></div>
+    {% include flex_nav-bar.html %}
+    {{ content }}
 
-  {{ content }}
-
-  {% include footer.html %}
+    {% include footer.html %}
+    </div>
 </body>
 
 </html>
