@@ -51,7 +51,7 @@ function drawDiagChart() {
     //   }
     // },
     'legend': 'none', 
-    pieSliceText: 'label-and-value',
+    pieSliceText: 'label',
     'animation': {
       'duration': 1000,
       'startup': true
