@@ -15,10 +15,10 @@ about:
   fr: "À propos"
 contact:
   en: "Contact"
-  fr: "Nous rejoindre"
+  fr: "Nous joindre"
 contactUs:
   en: "Contact Us"
-  fr: "Nous rejoindre"
+  fr: "Nous joindre"
 stats:
   en: "Stats"
   fr: "Statistiques"
@@ -75,7 +75,7 @@ part_tests:
   fr: "Qu’est-ce qui a lieu durant les examens?"
 part_where:
   en: "Where will this take place?"
-  fr: "Où est-ce que ces visites se déroulent-elles?"
+  fr: "Où est-ce que ces visites se déroulent?"
 your_name:
   en: "Your name"
   fr: "Votre nom"
