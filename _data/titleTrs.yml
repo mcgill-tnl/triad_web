@@ -9,70 +9,82 @@ triadLong:
   fr: "Biomarqueurs de Vieillissement et de Démence"
 home:
   en: "Home"
-  fr: "Home FR"
+  fr: "Accueil"
 about:
   en: "About"
-  fr: "About FR"
+  fr: "À propos"
 contact:
   en: "Contact"
-  fr: "Contact FR"
+  fr: "Nous rejoindre"
 contactUs:
   en: "Contact Us"
-  fr: "Contact Us FR"
+  fr: "Nous rejoindre"
 stats:
   en: "Stats"
-  fr: "Stats FR"
+  fr: "Statistiques"
 team:
   en: "Team"
-  fr: "Team FR"
+  fr: "Équipe"
 description:
   en: "Cohort Description"
-  fr: "Cohort Description FR"
+  fr: "Description de notre cohorte"
 participate:
   en: "Participate"
-  fr: "Participate FR"
+  fr: "Participez"
 description_page_title:
   en: "Cohort Description"
-  fr: "Cohort Description FR"
+  fr: "Description de notre cohorte"
 participate_page_title:
   en: "Participate in TRIAD"
-  fr: "Participate in TRIAD FR"
+  fr: "Participer à BIOVIE"
 data:
   en: "Data"
-  fr: "Data FR"
+  fr: "Données"
 dataAccess:
   en: "Data Privacy and Access"
-  fr: "Data Privacy and Access FR"
+  fr: "Confidentialité et accès aux données"
 desc_background:
   en: "Background"
-  fr: "Background FR"
+  fr: "Contexte"
 desc_aims:
   en: "Aims"
-  fr: "Aims FR"
+  fr: "Objectifs"
 desc_facilities:
   en: "Facilities"
-  fr: "Facilities FR"
+  fr: "Sites de recherche"
 desc_measures:
   en: "Measures"
-  fr: "Measures FR"
+  fr: "Évaluations"
 desc_groups:
   en: "Study Groups"
-  fr: "Study Groups FR"
+  fr: "Groupes d’étude"
 part_info:
-  en: "Information for participants. "
-  fr: "Information for participants. FR"
+  en: "Information for participants "
+  fr: "Information pour les participants"
 part_who:
   en: "Who are we looking for?"
-  fr: "Who are we looking for? FR" 
+  fr: "Qui recherchons-nous?" 
 part_how:
   en: "How can you get involved?"
-  fr: "How can you get involved? FR"
+  fr: "Comment puis-je m’impliquer?"
 part_what:
   en: "What to expect?"
-  fr: "What to expect? FR"
+  fr: "À quoi s’attendre?"
 part_tests:
   en: "What happens during the tests?"
-  fr: "What happens during the tests? FR"
+  fr: "Qu’est-ce qui a lieu durant les examens?"
 part_where:
   en: "Where will this take place?"
-  fr: "Where will this take place? FR"
+  fr: "Où est-ce que ces visites se déroulent-elles?"
+your_name:
+  en: "Your name"
+  fr: "Votre nom"
+your_email:
+  en: "Your email"
+  fr: "Votre courriel"
+message:
+  en: "Message"
+  fr: "Message"
+send_message:
+  en: "Send Message"
+  fr: "Envoyer votre message"

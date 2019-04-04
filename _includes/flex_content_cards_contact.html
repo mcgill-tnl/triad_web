@@ -18,19 +18,19 @@
     </div>
     <div class="col-md-6">
       <p>
-        If you would like to participate or would like to hear more, please contact us.
+        If you would like to participate in our cohort (or to be part of our cohort) or if you have any inquiries.
       </p>
       <form action="https://formspree.io/triad.tnl.mcgill@gmail.com" method="POST">
         <div class="form-group">
-          <input type="text" class="form-control" id="nameinput" name="name" placeholder="Your Name">
+          <input type="text" class="form-control" id="nameinput" name="name" placeholder="{{ site.data.titleTrs['your_name'][handle] }}">
         </div>
         <div class="form-group">
-          <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Your Email">
+          <input type="email" class="form-control" id="inputEmail" name="email" placeholder="{{ site.data.titleTrs['your_email'][handle] }}">
         </div>
         <div class="form-group">
           <textarea class="form-control" id="inputMessage" name="message" rows="2"></textarea>
         </div>
-        <button type="submit" class="btn btn-light">Send Message</button>
+        <button type="submit" class="btn btn-light">{{ site.data.titleTrs['send_message'][handle] }}</button>
       </form>
     </div>
   </div>
@@ -50,19 +50,19 @@
       </div>
       <div class="col-md-6">
         <p>
-          If you would like to participate or would like to hear more, please contact us.
+          Si vous souhaitez participer à notre cohorte (ou faire partie de notre cohorte) ou si vous avez des questions.
         </p>
         <form action="https://formspree.io/triad.tnl.mcgill@gmail.com" method="POST">
           <div class="form-group">
-            <input type="text" class="form-control" id="nameinput" name="name" placeholder="Your Name">
+            <input type="text" class="form-control" id="nameinput" name="name" placeholder="{{ site.data.titleTrs['your_name'][handle] }}">
           </div>
           <div class="form-group">
-            <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Your Email">
+            <input type="email" class="form-control" id="inputEmail" name="email" placeholder="{{ site.data.titleTrs['your_email'][handle] }}">
           </div>
           <div class="form-group">
             <textarea class="form-control" id="inputMessage" name="message" rows="2"></textarea>
           </div>
-          <button type="submit" class="btn btn-light">Send Message</button>
+          <button type="submit" class="btn btn-light">{{ site.data.titleTrs['send_message'][handle] }}</button>
         </form>
       </div>
     </div>
