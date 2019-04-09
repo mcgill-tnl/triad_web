@@ -8,8 +8,10 @@ css:
   - /assets/css/flex_styles.css
   - /assets/css/pageparallax.css
   - /assets/css/flexcenterrow.css
+  - /assets/css/triad.css
   - https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700
   - https://fonts.googleapis.com/css?family=Raleway:400,700,300
+  - https://fonts.googleapis.com/css?family=Source+Sans+Pro
 js:
   - /assets/js/jquery-3.3.1.min.js
   - /assets/js/popper.min.js
