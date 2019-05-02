@@ -1,0 +1,9 @@
+mcsa:
+  en: "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJAQAMgFQQyUwRNC-39m8mRIY&key=AIzaSyBWLpjxQvtzvxf96CsAIGOM7uV3_ydkTe0&language=en"
+  fr: "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJAQAMgFQQyUwRNC-39m8mRIY&key=AIzaSyBWLpjxQvtzvxf96CsAIGOM7uV3_ydkTe0&language=fr"
+crsd:
+  en: "https://www.google.com/maps/embed/v1/place?q=6775+Boulevard+LaSalle,+Verdun,+QC,+Canada&key=AIzaSyBWLpjxQvtzvxf96CsAIGOM7uV3_ydkTe0&language=en"
+  fr: "https://www.google.com/maps/embed/v1/place?q=6775+Boulevard+LaSalle,+Verdun,+QC,+Canada&key=AIzaSyBWLpjxQvtzvxf96CsAIGOM7uV3_ydkTe0&language=fr"
+mni:
+  en: "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJX0xdNjcayUwRHM9HLOGHUdc&key=AIzaSyBWLpjxQvtzvxf96CsAIGOM7uV3_ydkTe0&language=en"
+  fr: "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJX0xdNjcayUwRHM9HLOGHUdc&key=AIzaSyBWLpjxQvtzvxf96CsAIGOM7uV3_ydkTe0&language=fr"
