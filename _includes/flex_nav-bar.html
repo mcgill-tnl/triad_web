@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light flexnavbar sticky-top">
     <div class="container-fluid">
         <a class="navbar-brand" href="/">
-            <img src="/assets/img/LOGO_tr_xm.png" width="48" height="30" class="d-inline-block align-top" alt="">
+            <img src="/assets/img/LOGO_tr_xm.png" alt="TRIAD_LOGO" width="48" height="30" class="d-inline-block align-top">
         </a>
         <div class="d-flex mr-auto">
             <ul class="navbar-nav flex-row">
@@ -23,7 +23,7 @@
                 </ul>
             {% endif %}
 
-        </div>    
+        </div>
         <button class="btn btn-light d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -40,9 +40,9 @@
                     {% elsif page.onepage %}
                     {% assign href = item.path %}
                     {% else %}
-                        {% if site.active_lang == site.default_lang %} 
+                        {% if site.active_lang == site.default_lang %}
                             {% assign href = site.baseurl | append:item.path | relative_url %}
-                        {% else %} 
+                        {% else %}
                             {% assign href = site.baseurl | append:site.active_lang | append:item.path | relative_url %}
                         {% endif %}
                     {% endif %}
@@ -57,9 +57,9 @@
                     {% elsif page.onepage %}
                     {% assign href = item.path %}
                     {% else %}
-                        {% if site.active_lang == site.default_lang %} 
+                        {% if site.active_lang == site.default_lang %}
                             {% assign href = site.baseurl | append:item.path | relative_url %}
-                        {% else %} 
+                        {% else %}
                             {% assign href = site.baseurl | append:site.active_lang | append:item.path | relative_url %}
                         {% endif %}
                     {% endif %}
