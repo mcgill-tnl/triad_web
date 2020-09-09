@@ -21,8 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6636f740-16bd-45b5-9086-7df4c9fa19f7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/team.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/team.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/flex_content_team_cards.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/flex_content_team_cards.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/custom/_flipcard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom/_flipcard.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599617553867</updated>
-      <workItem from="1599617555020" duration="5093000" />
+      <workItem from="1599617555020" duration="6249000" />
     </task>
     <servers />
   </component>
@@ -74,10 +74,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="318" y="379" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1599666412743" />
-    <state x="571" y="440" width="583" height="566" key="find.popup" timestamp="1599678221063">
+    <state x="571" y="440" width="583" height="566" key="find.popup" timestamp="1599679596963">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="571" y="440" width="583" height="566" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1599678221063" />
+    <state x="571" y="440" width="583" height="566" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1599679596963" />
     <state x="527" y="330" width="672" height="678" key="search.everywhere.popup" timestamp="1599666241447">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
