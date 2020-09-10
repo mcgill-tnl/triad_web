@@ -20,29 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6636f740-16bd-45b5-9086-7df4c9fa19f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/triad_docker/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/triad_docker/Dockerfile.serve" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/triad_docker/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/triad_docker/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/triad_docker/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/triad_docker/docker-entrypoint.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/triad_docker/jekyll-serve.dockerapp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/triad_web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/triad_web.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/team.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/team.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/custom/_flipcard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom/_flipcard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/personal/alyssa.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/personal/alyssa.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/personal/ellie.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/personal/ellie.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/personal/jenna.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/personal/jenna.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/personal/nina.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/personal/nina.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/personal/ourdia.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/personal/ourdia.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/personal/pedro.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/personal/pedro.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/personal/rie.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/personal/rie.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/personal/serge.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/personal/serge.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/personal/vero.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/personal/vero.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/triad_docker/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/triad_docker/Dockerfile.serve" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/triad_docker/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/triad_docker/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/triad_docker/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/triad_docker/docker-entrypoint.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/triad_docker/jekyll-serve.dockerapp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +61,7 @@
       <workItem from="1599617555020" duration="8290000" />
       <workItem from="1599696414691" duration="1121000" />
       <workItem from="1599698093714" duration="889000" />
-      <workItem from="1599699732728" duration="5247000" />
+      <workItem from="1599699732728" duration="5367000" />
     </task>
     <servers />
   </component>
@@ -114,9 +101,9 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="571" y="440" width="583" height="566" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1599701105762" />
-    <state x="527" y="329" width="672" height="678" key="search.everywhere.popup" timestamp="1599705965015">
+    <state x="527" y="329" width="672" height="678" key="search.everywhere.popup" timestamp="1599706055116">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="527" y="329" width="672" height="678" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1599705965015" />
+    <state x="527" y="329" width="672" height="678" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1599706055116" />
   </component>
 </project>
