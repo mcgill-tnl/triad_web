@@ -20,9 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6636f740-16bd-45b5-9086-7df4c9fa19f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/triad_docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/triad_docker/Dockerfile.serve" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/triad_docker/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/triad_docker/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/triad_docker/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/triad_docker/docker-entrypoint.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/triad_docker/jekyll-serve.dockerapp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_data/team.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/team.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/flex_content_team_cards.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/flex_content_team_cards.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/custom/_flipcard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom/_flipcard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/personal/alyssa.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/personal/alyssa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/personal/ellie.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/personal/ellie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/personal/jenna.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/personal/jenna.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/personal/nina.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/personal/nina.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/personal/ourdia.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/personal/ourdia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/personal/pedro.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/personal/pedro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/personal/rie.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/personal/rie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/personal/serge.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/personal/serge.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/personal/vero.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/personal/vero.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +71,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599617553867</updated>
-      <workItem from="1599617555020" duration="6249000" />
+      <workItem from="1599617555020" duration="8290000" />
+      <workItem from="1599696414691" duration="1121000" />
+      <workItem from="1599698093714" duration="889000" />
+      <workItem from="1599699732728" duration="5247000" />
     </task>
     <servers />
   </component>
@@ -68,19 +91,32 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="318" y="379" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599666412743">
+    <state x="450" y="365" key="#Plugins" timestamp="1599696389575">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="318" y="379" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1599666412743" />
-    <state x="571" y="440" width="583" height="566" key="find.popup" timestamp="1599679596963">
+    <state x="450" y="365" key="#Plugins/0.0.2560.1440@0.0.2560.1440" timestamp="1599696389575" />
+    <state x="318" y="379" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599698126188">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="571" y="440" width="583" height="566" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1599679596963" />
-    <state x="527" y="330" width="672" height="678" key="search.everywhere.popup" timestamp="1599666241447">
+    <state x="318" y="379" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1599698126188" />
+    <state x="612" y="510" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599696635644">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="527" y="330" width="672" height="678" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1599666241447" />
+    <state x="612" y="510" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1599696635644" />
+    <state x="702" y="604" key="DockerComposeFileDialog" timestamp="1599698125494">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="702" y="604" key="DockerComposeFileDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1599698125493" />
+    <state x="571" y="440" width="583" height="566" key="find.popup" timestamp="1599701105762">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="571" y="440" width="583" height="566" key="find.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1599701105762" />
+    <state x="527" y="329" width="672" height="678" key="search.everywhere.popup" timestamp="1599705965015">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="527" y="329" width="672" height="678" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1599705965015" />
   </component>
 </project>
