@@ -60,7 +60,7 @@ function drawDiagChart() {
       'fontSize': 18
     },
   };
-  getDataTable('https://filecabinet.tnl-mcgill.com/_get_diagcat_counts_datatable').then(function(datatables) {
+  getDataTable('https://filecabinet-ca.tnl-mcgill.com/_get_diagcat_counts_datatable').then(function(datatables) {
     var chart = new google.visualization.BarChart(document.getElementById('diag_count_chart_div'));
     chart.draw(datatables[0], DiagCountoptions);
     var piechart = new google.visualization.PieChart(document.getElementById('pie_diag_count_chart_div'));
