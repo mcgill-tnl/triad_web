@@ -2,23 +2,28 @@
   active: "active"
   title: ""
   subtitle: ""
-  image: "url('/assets/img/slider_4.png')"
+  image: "url('/assets/img/TRIAD_promo_video_banner_20211118.gif')"
 - 2:
   active: ""
   title: ""
   subtitle: ""
-  image: "url('/assets/img/slider_1.png')"
+  image: "url('/assets/img/slider_4.png')"
 - 3:
   active: ""
   title: ""
   subtitle: ""
-  image: "url('/assets/img/slider_2.png')"
+  image: "url('/assets/img/slider_1.png')"
 - 4:
   active: ""
   title: ""
   subtitle: ""
-  image: "url('/assets/img/slider_5.png')"
+  image: "url('/assets/img/slider_2.png')"
 - 5:
+  active: ""
+  title: ""
+  subtitle: ""
+  image: "url('/assets/img/slider_5.png')"
+- 6:
   active: ""
   title: ""
   subtitle: ""

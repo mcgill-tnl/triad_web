@@ -13,6 +13,9 @@ home:
 about:
   en: "About"
   fr: "À propos"
+testimonials:
+  en: "Testimonials"
+  fr: "Témoignages"
 contact:
   en: "Contact"
   fr: "Nous joindre"
